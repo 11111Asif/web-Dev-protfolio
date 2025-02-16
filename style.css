@@ -45,9 +45,10 @@ nav a{
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    background-image: url(images/header_bg.png);
+    background-image:  url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position:  top left, bottom right;
+    
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -70,4 +71,32 @@ nav a{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* about section style */
+.section-title{
+    text-align: center;
+    font-size: 40px;
+}
+.about{
+padding: 130px;
+background-color: #fff8f3;
+border-radius: 10px;
+margin: 130px 0;
+}
+.about-info-container{
+display: flex;
+justify-content: space-around;
+}
+.about-info{
+text-align: center;
 }
