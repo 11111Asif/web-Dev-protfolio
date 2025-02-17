@@ -41,6 +41,9 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+.nav-title{
+    font-size: 25px;
+}
 
 /* header related styles */
 .header{
@@ -60,7 +63,7 @@ nav a{
     max-width: 500px;
 }
 .banner .profile-pic{
-    width: 400px;
+    width: 580px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -68,7 +71,7 @@ nav a{
     margin-bottom: 0px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 65px;
     font-weight: 700;
     margin-top: 5px;
 }
@@ -96,6 +99,13 @@ margin: 130px 0;
 .about-info-container{
 display: flex;
 justify-content: space-around;
+}
+.info-title{
+    color: #757575;
+}
+.into-discription{
+    font-weight: 700;
+   
 }
 .about-info{
 text-align: center;
