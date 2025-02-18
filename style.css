@@ -90,6 +90,7 @@ main section{
     text-align: center;
     font-size: 40px;
 }
+
 .about{
 padding: 130px;
 background-color: #fff8f3;
@@ -186,13 +187,61 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input, textarea{
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 40px;
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
-    color: #757575;
+    /* color: #757575; */
     border-radius: 5px;
     background-color: #fff;
-    border: 0;
+    border: none;
     width: 100%;
 }
+
+ @media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav{
+        margin: 0px;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        width: 100%;
+        padding: 0px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about{
+        padding: 0px;
+        margin: 0px;
+    } 
+    footer{
+        padding: 0px;
+        margin: 0px;
+    }  
+    .footer-column{
+        width: 100%;
+    } 
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc(100% - 80px);
+    }
+  
+   
+    
+ }
